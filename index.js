@@ -5,7 +5,7 @@ const PORT = process.env.PORT || 9546;
 const URL = process.env.URL;
 const io = new Server(PORT, {
     cors: {
-        origin: URL
+        origin: URL,
     }
 })
 
